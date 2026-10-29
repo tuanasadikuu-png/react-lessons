@@ -1,11 +1,14 @@
 
 import './App.css'
+import ProductList from './components/Products/ProductList'
 
 function App() {
 
 
   return (
-    <><h1>react </h1></>
+    <div>
+      <ProductList />
+    </div>
   )
 }
 export default App
